@@ -1,6 +1,9 @@
 import json
 
-with open("result.jsonl", "r") as f:
+rsfile = input('filename(default = result.jsonl): ')
+rsfile = "result.jsonl" if rsfile == "" else rsfile
+
+with open(rsfile, "r") as f:
     l = [json.loads(i) for i in f.readlines()]
 
 d = {}
