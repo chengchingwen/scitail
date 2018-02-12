@@ -1,0 +1,1175 @@
+premise similarity: 0.8924731182795699
+hypothesis similarity: 1.0
+{'premise': 'Corolla Collective term for all the petals of a flower, separate or fused together.', 'hypothesis': 'All of the petals together are called a corolla.', 'label': 'entails', 'hypothesis_structure': 'All of the petals<>together are called<>a corolla'}
+
+base: 
+{'premise': 'Corolla Collective term for all the petals of a flower, these petals may be separate or fused together.', 'hypothesis': 'All of the petals together are called a corolla.', 'label': 'entails', 'hypothesis_structure': 'All of the petals<>together are called<>a corolla'}
+======================================
+premise similarity: 0.7272727272727273
+hypothesis similarity: 1.0
+{'premise': 'The liver consists of right and left lobes.', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+
+premise similarity: 0.8545454545454545
+hypothesis similarity: 1.0
+{'premise': 'The large liver is divided into a right and left lobe.', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+
+base: 
+{'premise': 'The liver is divided into the right lobe and left lobes.', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+======================================
+premise similarity: 0.7058823529411765
+hypothesis similarity: 1.0
+{'premise': 'Neptune is the eighth planet from the sun.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+base: 
+{'premise': 'Neptune will be the farthest planet from the Sun until 1999.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'neutral', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+======================================
+premise similarity: 0.8354430379746836
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the process by which water changes from a liquid to a gas or vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.8588957055214724
+hypothesis similarity: 1.0
+{'premise': 'Evaporation The process by which water is changed from the liquid into the vapor state.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.7586206896551724
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is when water changes from its liquid state into a vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+base: 
+{'premise': 'evaporation ---process by which water is changed from a liquid into a vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+======================================
+premise similarity: 0.822742474916388
+hypothesis similarity: 1.0
+{'premise': 'In the long term, good control of sugar may prevent or delay complications of type 2 diabetes such as heart disease, kidney  disease, and blindness.', 'hypothesis': 'Diabetes is unpreventable in the type one form but may be prevented by diet if it is of the second type.', 'label': 'neutral', 'hypothesis_structure': 'Diabetes<>is<>unpreventable$$$it<>is<>of the second type'}
+
+base: 
+{'premise': 'Studies have shown that good glucose control may prevent or delay complications of type 2 diabetes such as heart disease, kidney disease, or blindness.', 'hypothesis': 'Diabetes is unpreventable in the type one form but may be prevented by diet if it is of the second type.', 'label': 'neutral', 'hypothesis_structure': 'Diabetes<>is<>unpreventable$$$it<>is<>of the second type'}
+======================================
+premise similarity: 0.7007299270072993
+hypothesis similarity: 1.0
+{'premise': 'This compound contains the elements carbon, hydrogen, and oxygen.', 'hypothesis': 'Compounds containing the element carbon are the basis of all known life.', 'label': 'neutral', 'hypothesis_structure': 'Compounds<>containing<>the element carbon$$$Compounds containing the element carbon<>are<>the basis of all known life'}
+
+premise similarity: 0.8444444444444444
+hypothesis similarity: 1.0
+{'premise': 'Compound containing only the two elements, carbon and hydrogen.', 'hypothesis': 'Compounds containing the element carbon are the basis of all known life.', 'label': 'neutral', 'hypothesis_structure': 'Compounds<>containing<>the element carbon$$$Compounds containing the element carbon<>are<>the basis of all known life'}
+
+base: 
+{'premise': 'hydrocarbon A compound containing only the elements carbon and hydrogen.', 'hypothesis': 'Compounds containing the element carbon are the basis of all known life.', 'label': 'neutral', 'hypothesis_structure': 'Compounds<>containing<>the element carbon$$$Compounds containing the element carbon<>are<>the basis of all known life'}
+======================================
+premise similarity: 0.7681159420289855
+hypothesis similarity: 1.0
+{'premise': 'A convex lens is a lens that is thicker in the middle than at its edges.', 'hypothesis': 'A concave lens is thicker at the edges than it is in the middle.', 'label': 'neutral', 'hypothesis_structure': 'A concave lens<>is<>thicker at the edges$$$it<>is<>in the middle'}
+
+base: 
+{'premise': 'A concave lens is thinner in the middle than it is near its edges.', 'hypothesis': 'A concave lens is thicker at the edges than it is in the middle.', 'label': 'entails', 'hypothesis_structure': 'A concave lens<>is<>thicker at the edges$$$it<>is<>in the middle'}
+======================================
+premise similarity: 0.7069767441860465
+hypothesis similarity: 1.0
+{'premise': 'Hemodialysis In hemodialysis, an artificial kidney removes waste from the blood.', 'hypothesis': 'Hemodialysis has a patient’s blood pass through a length of tubing that travels through an artificial kidney machine.', 'label': 'entails', 'hypothesis_structure': "a length of tubing<>travels<>$$$Hemodialysis<>has<>a patient's blood pass through a length of tubing$$$a patient's blood<>pass<>through a length of tubing"}
+
+base: 
+{'premise': 'Hemodialysis involves the use of a dialysis machine and an artificial kidney to remove waste products and excess fluids from the blood.', 'hypothesis': 'Hemodialysis has a patient’s blood pass through a length of tubing that travels through an artificial kidney machine.', 'label': 'entails', 'hypothesis_structure': "a length of tubing<>travels<>$$$Hemodialysis<>has<>a patient's blood pass through a length of tubing$$$a patient's blood<>pass<>through a length of tubing"}
+======================================
+premise similarity: 0.8
+hypothesis similarity: 1.0
+{'premise': 'the concave lens .', 'hypothesis': 'A concave lens is thicker at the edges than it is in the middle.', 'label': 'neutral', 'hypothesis_structure': 'A concave lens<>is<>thicker at the edges$$$it<>is<>in the middle'}
+
+base: 
+{'premise': 'concave lens', 'hypothesis': 'A concave lens is thicker at the edges than it is in the middle.', 'label': 'neutral', 'hypothesis_structure': 'A concave lens<>is<>thicker at the edges$$$it<>is<>in the middle'}
+======================================
+premise similarity: 0.8717948717948718
+hypothesis similarity: 1.0
+{'premise': 'FRONT A front is the boundary between two different air masses .', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.8118811881188119
+hypothesis similarity: 1.0
+{'premise': 'Fronts mark the boundary between two air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.9090909090909091
+hypothesis similarity: 1.0
+{'premise': 'A front is the boundary between two different air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.831858407079646
+hypothesis similarity: 1.0
+{'premise': 'a front is a boundary layer between to different air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.8461538461538461
+hypothesis similarity: 1.0
+{'premise': 'A front is a boundary between different air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.8807339449541285
+hypothesis similarity: 1.0
+{'premise': 'FRONT The boundary between two different air masses, ie.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.8141592920353983
+hypothesis similarity: 1.0
+{'premise': 'A front is the boundary between two different masses of air.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.7238095238095238
+hypothesis similarity: 1.0
+{'premise': 'Fronts are boundaries between contrasting air masses', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.848
+hypothesis similarity: 1.0
+{'premise': 'Front- The boundary or transition zone between two different air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.7476635514018691
+hypothesis similarity: 1.0
+{'premise': 'A front is simply the boundary between two air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.9320388349514563
+hypothesis similarity: 1.0
+{'premise': 'front A boundary between two different air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.7540983606557377
+hypothesis similarity: 1.0
+{'premise': 'Fronts A weather front is a boundary between two distinct air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+base: 
+{'premise': 'Front- The boundary between two different air masses.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+======================================
+premise similarity: 0.7816091954022989
+hypothesis similarity: 1.0
+{'premise': 'Mitosis is classically divided into four stages.', 'hypothesis': 'Mitosis actually occurs in four phases.', 'label': 'entails', 'hypothesis_structure': 'Mitosis<>actually occurs<>in four phases'}
+
+base: 
+{'premise': 'Mitosis is subdivided into four phases.', 'hypothesis': 'Mitosis actually occurs in four phases.', 'label': 'entails', 'hypothesis_structure': 'Mitosis<>actually occurs<>in four phases'}
+======================================
+premise similarity: 0.700507614213198
+hypothesis similarity: 1.0
+{'premise': 'closed system 36 A system that can exchange heat but not matter with its surroundings.', 'hypothesis': 'A sealed, vacuum-insulated reaction flask approximates the condition of a isolated system, in which neither matter nor heat can be exchanged between system and surroundings.', 'label': 'neutral', 'hypothesis_structure': 'vacuum-insulated reaction flask<>approximates<>the condition of a isolated system$$$neither matter nor heat<>can be exchanged<>a isolated system'}
+
+base: 
+{'premise': 'In thermodynamics, a closed system can exchange energy (as heat or work) but not matter, with its surroundings.', 'hypothesis': 'A sealed, vacuum-insulated reaction flask approximates the condition of a isolated system, in which neither matter nor heat can be exchanged between system and surroundings.', 'label': 'neutral', 'hypothesis_structure': 'vacuum-insulated reaction flask<>approximates<>the condition of a isolated system$$$neither matter nor heat<>can be exchanged<>a isolated system'}
+======================================
+premise similarity: 0.7737226277372263
+hypothesis similarity: 1.0
+{'premise': 'The cooled water returns to the oil cooler to repeat the cycle.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+base: 
+{'premise': 'The recycled steam is returned as water to the boiler to repeat the cycle.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+======================================
+premise similarity: 0.7021276595744681
+hypothesis similarity: 1.0
+{'premise': "Ocean acidification is the ongoing decrease in the pH of the Earth's oceans, caused by the uptake of carbon dioxide (CO2 ) from the atmosphere.", 'hypothesis': 'Ocean acidification occurs when excess carbon dioxide in the atmosphere causes the oceans to become acidic.', 'label': 'entails', 'hypothesis_structure': 'Ocean acidification<>occurs<>when excess carbon dioxide in the atmosphere causes the oceans to become acidic$$$excess carbon dioxide in the atmosphere<>causes<>the oceans to become acidic$$$the oceans<>to become<>acidic'}
+
+base: 
+{'premise': 'Ocean acidification describes the decrease in ocean pH that is caused by anthropogenic carbon dioxide (CO2 ) emissions into the atmosphere.', 'hypothesis': 'Ocean acidification occurs when excess carbon dioxide in the atmosphere causes the oceans to become acidic.', 'label': 'entails', 'hypothesis_structure': 'Ocean acidification<>occurs<>when excess carbon dioxide in the atmosphere causes the oceans to become acidic$$$excess carbon dioxide in the atmosphere<>causes<>the oceans to become acidic$$$the oceans<>to become<>acidic'}
+======================================
+premise similarity: 0.8656716417910447
+hypothesis similarity: 1.0
+{'premise': 'Assume that just five of those eggs can be made into healthy cloned embryos, two embryos are transferred to each surrogate mother, and one out of 100 embryos survives to birth--all reasonable assumptions  based on animal data, scientists said.', 'hypothesis': 'Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as embryos.', 'label': 'neutral', 'hypothesis_structure': 'Invertebrates (and higher animals<>can be placed<>$$$two groups<>based<>on how they develop as embryos$$$they<>develop<>'}
+
+base: 
+{'premise': 'Assume that just five of those eggs can be made into healthy cloned embryos, two embryos are transferred to each surrogate mother, and one out of 100 embryos survives to birth (all reasonable assumptions based on animal data.)', 'hypothesis': 'Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as embryos.', 'label': 'neutral', 'hypothesis_structure': 'Invertebrates (and higher animals<>can be placed<>$$$two groups<>based<>on how they develop as embryos$$$they<>develop<>'}
+======================================
+premise similarity: 0.7222222222222222
+hypothesis similarity: 1.0
+{'premise': 'Use the Kinetic Theory as a model to explain the gas phase 2.', 'hypothesis': 'The behavior of ideal gases is explained by kinetic molecular theory.', 'label': 'neutral', 'hypothesis_structure': 'The behavior of ideal gases<>is explained<>by kinetic molecular theory'}
+
+base: 
+{'premise': 'Use the kinetic theory to explain gas pressure.', 'hypothesis': 'The behavior of ideal gases is explained by kinetic molecular theory.', 'label': 'neutral', 'hypothesis_structure': 'The behavior of ideal gases<>is explained<>by kinetic molecular theory'}
+======================================
+premise similarity: 0.7857142857142857
+hypothesis similarity: 1.0
+{'premise': 'Corolla with 5 petals or lobes.', 'hypothesis': 'All of the petals together are called a corolla.', 'label': 'neutral', 'hypothesis_structure': 'All of the petals<>together are called<>a corolla'}
+
+base: 
+{'premise': 'corolla with petals free.', 'hypothesis': 'All of the petals together are called a corolla.', 'label': 'neutral', 'hypothesis_structure': 'All of the petals<>together are called<>a corolla'}
+======================================
+premise similarity: 0.7652173913043478
+hypothesis similarity: 1.0
+{'premise': 'Most of the universe, however, consists of matter in the plasma state .', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+
+premise similarity: 0.7521367521367521
+hypothesis similarity: 1.0
+{'premise': 'Most of the volume of the universe is in the electrodynamic plasma state.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+
+premise similarity: 0.7102803738317757
+hypothesis similarity: 1.0
+{'premise': 'Roughly 99% of the matter in the universe is in a plasma state.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+
+premise similarity: 0.7747747747747747
+hypothesis similarity: 1.0
+{'premise': 'In fact, most of the matter in the universe is in the plasma state.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+
+base: 
+{'premise': 'Most of the universe is in the plasma state.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+======================================
+premise similarity: 0.8465116279069768
+hypothesis similarity: 1.0
+{'premise': 'Lyme disease is caused by a corkscrew-shaped bacterium, or spirochete, called Borrelia burgdorferi .', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+
+premise similarity: 0.7579908675799086
+hypothesis similarity: 1.0
+{'premise': 'We know now that Lyme disease is an infection caused by the bacterium (spirochete) Borrelia burgdorferi.', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+
+base: 
+{'premise': 'Lyme disease is an infection caused by a corkscrew-shaped bacterium known as a spirochete ( Borrelia burgdorferi ).', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+======================================
+premise similarity: 0.8108108108108109
+hypothesis similarity: 1.0
+{'premise': 'pH is the measure of hydrogen ions concentration.', 'hypothesis': 'The concentration of the hydrogen ion in a solution can be calculated when the ph is known.', 'label': 'entails', 'hypothesis_structure': 'The concentration of the hydrogen ion in a solution<>can be calculated<>when the ph is known$$$the ph<>is known<>'}
+
+base: 
+{'premise': 'pH pH is a measure of the hydrogen ion concentration in water.', 'hypothesis': 'The concentration of the hydrogen ion in a solution can be calculated when the ph is known.', 'label': 'entails', 'hypothesis_structure': 'The concentration of the hydrogen ion in a solution<>can be calculated<>when the ph is known$$$the ph<>is known<>'}
+======================================
+premise similarity: 0.9397590361445783
+hypothesis similarity: 1.0
+{'premise': 'Neptune is the eighth planet from the sun and the fourth largest (by diameter).', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.8241206030150754
+hypothesis similarity: 1.0
+{'premise': 'Planets Recommended Sites SEDS 9 Neptune is the eighth planet from the Sun and the fourth largest (by diameter).', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.7248322147651006
+hypothesis similarity: 1.0
+{'premise': 'Neptune is the eighth planet from the sun in our solar system.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.9405405405405406
+hypothesis similarity: 1.0
+{'premise': 'Neptune The Mystic Neptune is the eighth planet from the Sun and the fourth largest (by diameter).', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.7898089171974523
+hypothesis similarity: 1.0
+{'premise': 'Neptune Neptune is the eighth planet from the sun in our solar system.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.7515151515151515
+hypothesis similarity: 1.0
+{'premise': 'Neptune is the eighth planet from the sun and the fourth of the outer planets.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+base: 
+{'premise': 'Neptune Neptune is the eighth planet from the Sun and the fourth largest (by diameter).', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+======================================
+premise similarity: 0.7292817679558011
+hypothesis similarity: 1.0
+{'premise': 'ORGANS are discrete structures that consist of at least 2 tissues types.', 'hypothesis': 'A(n) organ is a structure that is composed of one or more types of tissues.', 'label': 'entails', 'hypothesis_structure': 'A(n) organ<>is<>a structure that is composed of one or more types of tissues$$$a structure<>is composed<>of one or more types of tissues'}
+
+base: 
+{'premise': 'An ORGAN is a discrete structure that performs specific functions and is composed of at least 2 tissue types.', 'hypothesis': 'A(n) organ is a structure that is composed of one or more types of tissues.', 'label': 'entails', 'hypothesis_structure': 'A(n) organ<>is<>a structure that is composed of one or more types of tissues$$$a structure<>is composed<>of one or more types of tissues'}
+======================================
+premise similarity: 0.7005649717514124
+hypothesis similarity: 1.0
+{'premise': 'Light enters the eye through the pupil, and the lens focuses the light on the retina.', 'hypothesis': 'The pupil of the eye allows light to enter.', 'label': 'entails', 'hypothesis_structure': 'The pupil of the eye<>allows<>light to enter$$$light<>to enter<>'}
+
+base: 
+{'premise': 'Light enters the eye through the pupil, and the pupil is made larger or smaller by the iris.', 'hypothesis': 'The pupil of the eye allows light to enter.', 'label': 'entails', 'hypothesis_structure': 'The pupil of the eye<>allows<>light to enter$$$light<>to enter<>'}
+======================================
+premise similarity: 0.717948717948718
+hypothesis similarity: 1.0
+{'premise': 'Neptune, a mostly gaseous giant, is the eighth planet from the sun.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.7010309278350515
+hypothesis similarity: 1.0
+{'premise': 'Neptune -- Planet eighth in order from the sun.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.7102803738317757
+hypothesis similarity: 1.0
+{'premise': 'Neptune Neptune is the eighth planet in the solar system.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+premise similarity: 0.8080808080808081
+hypothesis similarity: 1.0
+{'premise': 'Neptune --Neptune is the 8th planet from the sun.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+
+base: 
+{'premise': 'NEPTUNE Neptune is the eighth planet from the sun.', 'hypothesis': 'The eighth planet from our sun is neptune.', 'label': 'entails', 'hypothesis_structure': 'The eighth planet from our sun<>is<>neptune'}
+======================================
+premise similarity: 0.71
+hypothesis similarity: 1.0
+{'premise': 'It is the first and shortest part of the small intestine where most chemical digestion takes place.', 'hypothesis': 'In the body, chemical digestion mainly takes place in the small intestine.', 'label': 'entails', 'hypothesis_structure': 'chemical digestion<>mainly takes<>place<>in the small intestine<>In the body'}
+
+base: 
+{'premise': 'The duodenum is the first part of the small intestine and most of the chemical digestion occurs here.', 'hypothesis': 'In the body, chemical digestion mainly takes place in the small intestine.', 'label': 'entails', 'hypothesis_structure': 'chemical digestion<>mainly takes<>place<>in the small intestine<>In the body'}
+======================================
+premise similarity: 0.7213114754098361
+hypothesis similarity: 1.0
+{'premise': 'The point where these two air masses meet is called a front.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+base: 
+{'premise': 'The boundary between two air masses is called a weather front.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+======================================
+premise similarity: 0.7037037037037037
+hypothesis similarity: 1.0
+{'premise': 'These apex predators play a pivotal role in the balance of the ecosystem.', 'hypothesis': 'Beneficial fungi play a crucial role in balance of ecosystems.', 'label': 'neutral', 'hypothesis_structure': 'Beneficial fungi<>play<>a crucial role<>in balance of ecosystems'}
+
+base: 
+{'premise': "We've learned that wolves play a vital role in helping to balance our natural ecosystems.", 'hypothesis': 'Beneficial fungi play a crucial role in balance of ecosystems.', 'label': 'neutral', 'hypothesis_structure': 'Beneficial fungi<>play<>a crucial role<>in balance of ecosystems'}
+======================================
+premise similarity: 0.7474747474747475
+hypothesis similarity: 1.0
+{'premise': 'Ecology of Birds   Birds live and breed in most terrestrial habitats on all seven continents, from the Arctic to Antarctica.', 'hypothesis': 'Birds live and breed on seven of the continents.', 'label': 'entails', 'hypothesis_structure': 'Birds<>live<>$$$Birds<>breed<>on seven of the continents'}
+
+premise similarity: 0.8268156424581006
+hypothesis similarity: 1.0
+{'premise': 'Birds live and breed in most terrestrial habitats on all seven continents, from the Arctic to Antarctica.', 'hypothesis': 'Birds live and breed on seven of the continents.', 'label': 'entails', 'hypothesis_structure': 'Birds<>live<>$$$Birds<>breed<>on seven of the continents'}
+
+base: 
+{'premise': 'Birds live and breed in most terrestrial habitats on all seven continents.', 'hypothesis': 'Birds live and breed on seven of the continents.', 'label': 'entails', 'hypothesis_structure': 'Birds<>live<>$$$Birds<>breed<>on seven of the continents'}
+======================================
+premise similarity: 0.7029702970297029
+hypothesis similarity: 1.0
+{'premise': 'The pH is a measure of the concentration of hydrogen ions in a solution.', 'hypothesis': 'The concentration of the hydrogen ion in a solution can be calculated when the ph is known.', 'label': 'entails', 'hypothesis_structure': 'The concentration of the hydrogen ion in a solution<>can be calculated<>when the ph is known$$$the ph<>is known<>'}
+
+base: 
+{'premise': 'pH In chemistry, pH is a measure of the concentration of hydrogen ions in a solution, which is a measure of acidity or alkalinity.', 'hypothesis': 'The concentration of the hydrogen ion in a solution can be calculated when the ph is known.', 'label': 'entails', 'hypothesis_structure': 'The concentration of the hydrogen ion in a solution<>can be calculated<>when the ph is known$$$the ph<>is known<>'}
+======================================
+premise similarity: 0.8888888888888888
+hypothesis similarity: 1.0
+{'premise': 'Then the cycle repeats.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+premise similarity: 0.7222222222222222
+hypothesis similarity: 1.0
+{'premise': 'Cycle repeats.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+premise similarity: 0.85
+hypothesis similarity: 1.0
+{'premise': 'The cycle repeats.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+base: 
+{'premise': 'and the cycle repeats.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+======================================
+premise similarity: 0.8346456692913385
+hypothesis similarity: 1.0
+{'premise': 'The boiling point is the temperature when a liquid becomes a gas.', 'hypothesis': 'Gases and liquids become solids at low temperatures.', 'label': 'neutral', 'hypothesis_structure': 'Gases and liquids<>become<>solids'}
+
+premise similarity: 0.8
+hypothesis similarity: 1.0
+{'premise': 'The temperature at which a liquid becomes solid.', 'hypothesis': 'Gases and liquids become solids at low temperatures.', 'label': 'neutral', 'hypothesis_structure': 'Gases and liquids<>become<>solids'}
+
+base: 
+{'premise': 'Boiling Point The temperature at which a liquid becomes a gas.', 'hypothesis': 'Gases and liquids become solids at low temperatures.', 'label': 'neutral', 'hypothesis_structure': 'Gases and liquids<>become<>solids'}
+======================================
+premise similarity: 0.7037037037037037
+hypothesis similarity: 1.0
+{'premise': 'At the end of the cycle, it merely repeated the process.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+base: 
+{'premise': 'At the end of that time, they must repeat the cycle.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+======================================
+premise similarity: 0.746268656716418
+hypothesis similarity: 1.0
+{'premise': 'The pupil controls the amount of light that enters the eye.', 'hypothesis': 'The pupil of the eye allows light to enter.', 'label': 'entails', 'hypothesis_structure': 'The pupil of the eye<>allows<>light to enter$$$light<>to enter<>'}
+
+base: 
+{'premise': 'The pupil allows the proper amount of light to enter the inside of the eye.', 'hypothesis': 'The pupil of the eye allows light to enter.', 'label': 'entails', 'hypothesis_structure': 'The pupil of the eye<>allows<>light to enter$$$light<>to enter<>'}
+======================================
+premise similarity: 0.7058823529411765
+hypothesis similarity: 1.0
+{'premise': 'The sun is the ultimate source of energy in most ecosystems and for almost all living things.', 'hypothesis': 'Most of the energy used by living things comes either directly or indirectly from the sun.', 'label': 'entails', 'hypothesis_structure': 'the energy<>used<>by living things$$$Most of the energy<>comes directly<>from the sun'}
+
+base: 
+{'premise': 'Radiation from the Sun is the ultimate source of energy for most communities of living things.', 'hypothesis': 'Most of the energy used by living things comes either directly or indirectly from the sun.', 'label': 'entails', 'hypothesis_structure': 'the energy<>used<>by living things$$$Most of the energy<>comes directly<>from the sun'}
+======================================
+premise similarity: 0.9878048780487805
+hypothesis similarity: 1.0
+{'premise': 'In this procedure, one or two cells can be removed from an IVF embryo at the 8- to 16- cell stage for biopsy, without affecting subsequent development of the embryo.', 'hypothesis': 'Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as embryos.', 'label': 'neutral', 'hypothesis_structure': 'Invertebrates (and higher animals<>can be placed<>$$$two groups<>based<>on how they develop as embryos$$$they<>develop<>'}
+
+base: 
+{'premise': 'In the procedure, one or two cells can be removed from an IVF embryo at the 8- to 16-cell stage for biopsy, without affecting subsequent development of the embryo.', 'hypothesis': 'Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as embryos.', 'label': 'neutral', 'hypothesis_structure': 'Invertebrates (and higher animals<>can be placed<>$$$two groups<>based<>on how they develop as embryos$$$they<>develop<>'}
+======================================
+premise similarity: 0.8985507246376812
+hypothesis similarity: 1.0
+{'premise': 'placing a human embryo in an animal;', 'hypothesis': 'Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as embryos.', 'label': 'neutral', 'hypothesis_structure': 'Invertebrates (and higher animals<>can be placed<>$$$two groups<>based<>on how they develop as embryos$$$they<>develop<>'}
+
+base: 
+{'premise': 'placing human embryos in animals;', 'hypothesis': 'Invertebrates (and higher animals) can also be placed in one of two groups based on how they develop as embryos.', 'label': 'neutral', 'hypothesis_structure': 'Invertebrates (and higher animals<>can be placed<>$$$two groups<>based<>on how they develop as embryos$$$they<>develop<>'}
+======================================
+premise similarity: 0.734375
+hypothesis similarity: 1.0
+{'premise': 'Plasma is the most abundant form of matter in the universe.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+
+premise similarity: 0.7153284671532847
+hypothesis similarity: 1.0
+{'premise': 'However, plasma is the most abundant form of matter in the universe.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+
+base: 
+{'premise': 'But plasmas are actually the dominant form of matter in the universe.', 'hypothesis': 'Plasma matter makes up most of the universe.', 'label': 'entails', 'hypothesis_structure': 'Plasma matter<>makes up<>most of the universe'}
+======================================
+premise similarity: 0.7338129496402878
+hypothesis similarity: 1.0
+{'premise': 'The most abundant element in the universe is hydrogen (H).', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+
+premise similarity: 0.7111111111111111
+hypothesis similarity: 1.0
+{'premise': 'Hydrogen is the most abundant element in the universe.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+
+base: 
+{'premise': 'Helium is the second most abundant element in the known universe, after hydrogen.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+======================================
+premise similarity: 0.7142857142857143
+hypothesis similarity: 1.0
+{'premise': 'left lobe of liver 4.', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+
+premise similarity: 0.75
+hypothesis similarity: 1.0
+{'premise': 'Right lobe of liver', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+
+premise similarity: 0.7142857142857143
+hypothesis similarity: 1.0
+{'premise': 'left lobe of liver 3.', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+
+premise similarity: 0.7692307692307693
+hypothesis similarity: 1.0
+{'premise': 'Left lobe of liver', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+
+base: 
+{'premise': 'Caudate lobe of liver', 'hypothesis': 'The gallbladder is near the right lobe of the liver.', 'label': 'neutral', 'hypothesis_structure': 'The gallbladder<>is<>near the right lobe of the liver'}
+======================================
+premise similarity: 0.9430051813471503
+hypothesis similarity: 1.0
+{'premise': "Birds live and breed in most terrestrial habitats and on all seven continents, reaching their southern extreme in the snow petrel's breeding colonies up to 440 kilometres (270\xa0mi) inland in Antarctica .", 'hypothesis': 'Birds live and breed on seven of the continents.', 'label': 'entails', 'hypothesis_structure': 'Birds<>live<>$$$Birds<>breed<>on seven of the continents'}
+
+base: 
+{'premise': "Birds live and breed in most terrestrial habitats and on all seven continents, reaching their southern extreme in the snow petrel's breeding colonies up to 440 mi inland in Antarctica.", 'hypothesis': 'Birds live and breed on seven of the continents.', 'label': 'entails', 'hypothesis_structure': 'Birds<>live<>$$$Birds<>breed<>on seven of the continents'}
+======================================
+premise similarity: 0.7954545454545454
+hypothesis similarity: 1.0
+{'premise': 'The speed of sound is dependent on the medium through which the waves of sound travel.', 'hypothesis': 'The speed of sound depends on medium.', 'label': 'entails', 'hypothesis_structure': 'The speed of sound<>depends<>on medium'}
+
+base: 
+{'premise': 'The speed of sound depends on the properties of the medium through which the wave travels.', 'hypothesis': 'The speed of sound depends on medium.', 'label': 'entails', 'hypothesis_structure': 'The speed of sound<>depends<>on medium'}
+======================================
+premise similarity: 0.75177304964539
+hypothesis similarity: 1.0
+{'premise': 'Luckily, hydrogen is the most overwhelming abundant element in the cosmos.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+
+premise similarity: 0.7183098591549296
+hypothesis similarity: 1.0
+{'premise': 'This is good because hydrogen is the most abundant element in the Universe.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+
+premise similarity: 0.7175572519083969
+hypothesis similarity: 1.0
+{'premise': 'Hydrogen is, in fact, the most abundant element in the universe.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+
+base: 
+{'premise': 'Solid Hydrogen Hydrogen is the most abundant element in the cosmos.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+======================================
+premise similarity: 0.7241379310344828
+hypothesis similarity: 1.0
+{'premise': 'The carotid arteries are located in the neck and they deliver blood and oxygen to your brain.', 'hypothesis': 'The carotid artery takes blood to the brain.', 'label': 'entails', 'hypothesis_structure': 'The carotid artery<>takes<>blood'}
+
+base: 
+{'premise': 'The carotid arteries are two arteries in the neck that supply blood to the brain.', 'hypothesis': 'The carotid artery takes blood to the brain.', 'label': 'entails', 'hypothesis_structure': 'The carotid artery<>takes<>blood'}
+======================================
+premise similarity: 0.7121212121212122
+hypothesis similarity: 1.0
+{'premise': 'Continental crust is less dense and typically thicker than oceanic crust.', 'hypothesis': 'Gabbro is a dark dense rock that can be found in the oceanic crust.', 'label': 'neutral', 'hypothesis_structure': 'Gabbro<>is<>a dark dense rock that can be found in the oceanic crust$$$a dark dense rock<>can be found<>in the oceanic crust'}
+
+premise similarity: 0.746268656716418
+hypothesis similarity: 1.0
+{'premise': 'Continental crust is much older, thicker and less dense than oceanic crust.', 'hypothesis': 'Gabbro is a dark dense rock that can be found in the oceanic crust.', 'label': 'neutral', 'hypothesis_structure': 'Gabbro<>is<>a dark dense rock that can be found in the oceanic crust$$$a dark dense rock<>can be found<>in the oceanic crust'}
+
+base: 
+{'premise': 'The continental crust is more dense than the oceanic crust.', 'hypothesis': 'Gabbro is a dark dense rock that can be found in the oceanic crust.', 'label': 'neutral', 'hypothesis_structure': 'Gabbro<>is<>a dark dense rock that can be found in the oceanic crust$$$a dark dense rock<>can be found<>in the oceanic crust'}
+======================================
+premise similarity: 0.75
+hypothesis similarity: 1.0
+{'premise': 'and metal ore mining (20%).', 'hypothesis': 'Metals start out as ore.', 'label': 'neutral', 'hypothesis_structure': 'Metals<>start out<>as ore'}
+
+base: 
+{'premise': 'and metal ore (7.8%).', 'hypothesis': 'Metals start out as ore.', 'label': 'neutral', 'hypothesis_structure': 'Metals<>start out<>as ore'}
+======================================
+premise similarity: 0.8521739130434782
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the change of liquid-water to water vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.7407407407407407
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the process of changing liquid water into water vapor (a gas).', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.8031496062992126
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the changing of liquid water to invisible water vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.803030303030303
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the physical transformation of liquid water to water vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.8288288288288288
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the change of liquid water to a vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+base: 
+{'premise': 'Evaporation The conversion of liquid water to water vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+======================================
+premise similarity: 0.8314606741573034
+hypothesis similarity: 1.0
+{'premise': 'Petals are collectively called the corolla', 'hypothesis': 'All of the petals together are called a corolla.', 'label': 'entails', 'hypothesis_structure': 'All of the petals<>together are called<>a corolla'}
+
+base: 
+{'premise': 'The petals collectively are called the corolla.', 'hypothesis': 'All of the petals together are called a corolla.', 'label': 'entails', 'hypothesis_structure': 'All of the petals<>together are called<>a corolla'}
+======================================
+premise similarity: 0.7128712871287128
+hypothesis similarity: 1.0
+{'premise': 'The simplest hydrocarbon is composed of one carbon atom and four hydrogen atoms, CH 4 .', 'hypothesis': 'Hydrocarbons are made of one carbon and four hydrogen atoms.', 'label': 'entails', 'hypothesis_structure': 'Hydrocarbons<>are made<>of one carbon and four hydrogen atoms'}
+
+base: 
+{'premise': 'Methane is the simplest of the hydrocarbon compounds, being composed of one carbon atom and four atoms of hydrogen.', 'hypothesis': 'Hydrocarbons are made of one carbon and four hydrogen atoms.', 'label': 'entails', 'hypothesis_structure': 'Hydrocarbons<>are made<>of one carbon and four hydrogen atoms'}
+======================================
+premise similarity: 0.783625730994152
+hypothesis similarity: 1.0
+{'premise': 'Mitosis includes four phases, prophase, metaphase, anaphase, and telophase.', 'hypothesis': 'Mitosis actually occurs in four phases.', 'label': 'entails', 'hypothesis_structure': 'Mitosis<>actually occurs<>in four phases'}
+
+base: 
+{'premise': 'Mitosis can generally be divided into four phases, Prophase, Metaphase, Anaphase, and Telophase.', 'hypothesis': 'Mitosis actually occurs in four phases.', 'label': 'entails', 'hypothesis_structure': 'Mitosis<>actually occurs<>in four phases'}
+======================================
+premise similarity: 0.7121212121212122
+hypothesis similarity: 1.0
+{'premise': 'In some sense they are also beneficial as part of a balanced ecosystem.', 'hypothesis': 'Beneficial fungi play a crucial role in balance of ecosystems.', 'label': 'neutral', 'hypothesis_structure': 'Beneficial fungi<>play<>a crucial role<>in balance of ecosystems'}
+
+base: 
+{'premise': 'Snakes are beneficial and necessary for a balanced ecosystem.', 'hypothesis': 'Beneficial fungi play a crucial role in balance of ecosystems.', 'label': 'neutral', 'hypothesis_structure': 'Beneficial fungi<>play<>a crucial role<>in balance of ecosystems'}
+======================================
+premise similarity: 0.7162162162162162
+hypothesis similarity: 1.0
+{'premise': 'Evaporation is the transformation of water from liquid to vapor state.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+premise similarity: 0.7532467532467533
+hypothesis similarity: 1.0
+{'premise': 'Evaporation describes the change from water as a liquid to water as a vapor.', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+
+base: 
+{'premise': 'Evaporation is the change of state of water (a liquid) to water vapor (a gas).', 'hypothesis': 'When liquid water changes to water vapor it is called evaporation.', 'label': 'entails', 'hypothesis_structure': 'it<>is called<>evaporation'}
+======================================
+premise similarity: 0.7529411764705882
+hypothesis similarity: 1.0
+{'premise': 'Almost all chemical digestion and absorption of nutrients takes place in the small intestine.', 'hypothesis': 'In the body, chemical digestion mainly takes place in the small intestine.', 'label': 'entails', 'hypothesis_structure': 'chemical digestion<>mainly takes<>place<>in the small intestine<>In the body'}
+
+premise similarity: 0.9154929577464789
+hypothesis similarity: 1.0
+{'premise': 'Most of the digestion of food takes place in the small intestine.', 'hypothesis': 'In the body, chemical digestion mainly takes place in the small intestine.', 'label': 'entails', 'hypothesis_structure': 'chemical digestion<>mainly takes<>place<>in the small intestine<>In the body'}
+
+base: 
+{'premise': 'Most of the chemical digestion of foods takes place in the small intestine 2.', 'hypothesis': 'In the body, chemical digestion mainly takes place in the small intestine.', 'label': 'entails', 'hypothesis_structure': 'chemical digestion<>mainly takes<>place<>in the small intestine<>In the body'}
+======================================
+premise similarity: 0.8843537414965986
+hypothesis similarity: 1.0
+{'premise': 'All of the populations living together in the same area make up a community.', 'hypothesis': 'All of the populations that live in the same area make up a(n) community, which includes populations of different organisms.', 'label': 'entails', 'hypothesis_structure': 'the populations<>live<>in the same area$$$All of the populations<>make up<>a(n) community, which includes populations of different organisms$$$a(n) community<>includes<>populations of different organisms'}
+
+base: 
+{'premise': 'All of the populations that live in the same area make up a community .', 'hypothesis': 'All of the populations that live in the same area make up a(n) community, which includes populations of different organisms.', 'label': 'entails', 'hypothesis_structure': 'the populations<>live<>in the same area$$$All of the populations<>make up<>a(n) community, which includes populations of different organisms$$$a(n) community<>includes<>populations of different organisms'}
+======================================
+premise similarity: 0.7413793103448276
+hypothesis similarity: 1.0
+{'premise': 'pH is a measure of the concentration of hydrogen ions in a solution.', 'hypothesis': 'The concentration of the hydrogen ion in a solution can be calculated when the ph is known.', 'label': 'entails', 'hypothesis_structure': 'The concentration of the hydrogen ion in a solution<>can be calculated<>when the ph is known$$$the ph<>is known<>'}
+
+base: 
+{'premise': 'PH is the measure of hydrogen ions in solutions.', 'hypothesis': 'The concentration of the hydrogen ion in a solution can be calculated when the ph is known.', 'label': 'entails', 'hypothesis_structure': 'The concentration of the hydrogen ion in a solution<>can be calculated<>when the ph is known$$$the ph<>is known<>'}
+======================================
+premise similarity: 0.8666666666666667
+hypothesis similarity: 1.0
+{'premise': 'Repeat the cycle.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+base: 
+{'premise': 'Repeat cycle.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+======================================
+premise similarity: 0.9864864864864865
+hypothesis similarity: 1.0
+{'premise': 'The cycle is then repeated, providing a never ending supply of fertiliser.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+base: 
+{'premise': 'The cycle is then repeated, providing a never ending supply of fertilizer.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+======================================
+premise similarity: 0.8053691275167785
+hypothesis similarity: 1.0
+{'premise': 'Fronts are the boundaries between air masses of different temperature.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.8022598870056498
+hypothesis similarity: 1.0
+{'premise': 'A front is the boundary between two masses of moving air with different temperatures and humidity.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.7313432835820896
+hypothesis similarity: 1.0
+{'premise': 'A front is a boundary between air masses of different .', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+premise similarity: 0.759493670886076
+hypothesis similarity: 1.0
+{'premise': 'Fronts are boundaries between air masses of different             temperatures.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+
+base: 
+{'premise': 'front The boundary between two air masses of different temperature and density.', 'hypothesis': 'In weather terms, the boundary between two air masses is called front.', 'label': 'entails', 'hypothesis_structure': 'the boundary between two air masses<>is called<>front<>In weather terms'}
+======================================
+premise similarity: 0.9900990099009901
+hypothesis similarity: 1.0
+{'premise': 'Molecular regulation of smooth-muscle contraction;.', 'hypothesis': 'Smooth muscle regulates air flow in lungs.', 'label': 'neutral', 'hypothesis_structure': 'Smooth muscle<>regulates<>air flow in lungs'}
+
+base: 
+{'premise': 'Molecular regulation of smooth-muscle contraction;', 'hypothesis': 'Smooth muscle regulates air flow in lungs.', 'label': 'neutral', 'hypothesis_structure': 'Smooth muscle<>regulates<>air flow in lungs'}
+======================================
+premise similarity: 0.8048780487804879
+hypothesis similarity: 1.0
+{'premise': 'Explain in terms of the kinetic molecular theory.', 'hypothesis': 'The behavior of ideal gases is explained by kinetic molecular theory.', 'label': 'neutral', 'hypothesis_structure': 'The behavior of ideal gases<>is explained<>by kinetic molecular theory'}
+
+base: 
+{'premise': 'Explain kinetic molecular theory.', 'hypothesis': 'The behavior of ideal gases is explained by kinetic molecular theory.', 'label': 'neutral', 'hypothesis_structure': 'The behavior of ideal gases<>is explained<>by kinetic molecular theory'}
+======================================
+premise similarity: 0.8275862068965517
+hypothesis similarity: 1.0
+{'premise': 'Lyme disease is caused by a bacterium carried by infected deer ticks.', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+
+base: 
+{'premise': 'Lyme disease is caused by a type of bacterium that is carried by deer ticks.', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+======================================
+premise similarity: 0.9774436090225563
+hypothesis similarity: 1.0
+{'premise': 'B base --a substance that has a pH of more than 7, which is neutral.', 'hypothesis': 'If a substance has a ph value greater than 7,that indicates that it is base.', 'label': 'entails', 'hypothesis_structure': 'a substance<>has<>a ph value greater than 7'}
+
+base: 
+{'premise': 'base--a substance that has a pH of more than 7, which is neutral.', 'hypothesis': 'If a substance has a ph value greater than 7,that indicates that it is base.', 'label': 'entails', 'hypothesis_structure': 'a substance<>has<>a ph value greater than 7'}
+======================================
+premise similarity: 0.7133757961783439
+hypothesis similarity: 1.0
+{'premise': 'Lyme Disease by FDA Consumer Lyme disease is an infection caused by the bacterium Borrelia burgdorferi that is transmitted by a tick bite.', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+
+base: 
+{'premise': 'The transmission of Lyme disease Lyme disease is an infection caused by the spirochete Borrelia burgdorferi, a spiral-shaped bacterium most commonly transmitted by a tick bite.', 'hypothesis': 'Lyme disease is caused by bacteria.', 'label': 'entails', 'hypothesis_structure': 'Lyme disease<>is caused<>by bacteria'}
+======================================
+premise similarity: 0.7333333333333333
+hypothesis similarity: 1.0
+{'premise': 'thick lens .', 'hypothesis': 'A concave lens is thicker at the edges than it is in the middle.', 'label': 'neutral', 'hypothesis_structure': 'A concave lens<>is<>thicker at the edges$$$it<>is<>in the middle'}
+
+base: 
+{'premise': 'thick-lens power .', 'hypothesis': 'A concave lens is thicker at the edges than it is in the middle.', 'label': 'neutral', 'hypothesis_structure': 'A concave lens<>is<>thicker at the edges$$$it<>is<>in the middle'}
+======================================
+premise similarity: 0.7208121827411168
+hypothesis similarity: 1.0
+{'premise': 'pHs of less than 7 indicate acidity, whereas a pH of greater than 7 indicates a base.', 'hypothesis': 'If a substance has a ph value greater than 7,that indicates that it is base.', 'label': 'entails', 'hypothesis_structure': 'a substance<>has<>a ph value greater than 7'}
+
+base: 
+{'premise': 'On this scale, pH values of less than 7 indicate an acid, while those greater than 7 indicate a base (alkaline).', 'hypothesis': 'If a substance has a ph value greater than 7,that indicates that it is base.', 'label': 'entails', 'hypothesis_structure': 'a substance<>has<>a ph value greater than 7'}
+======================================
+premise similarity: 0.726027397260274
+hypothesis similarity: 1.0
+{'premise': 'Hydrogen is the most abundant of all of the elements in the universe.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+
+base: 
+{'premise': 'This is because hydrogen is by far the most abundant element in the universe.', 'hypothesis': 'The element hydrogen is the most abundant in the universe.', 'label': 'entails', 'hypothesis_structure': 'The element hydrogen<>is<>the most abundant in the universe'}
+======================================
+premise similarity: 0.924901185770751
+hypothesis similarity: 1.0
+{'premise': 'When one practices Qigong, one must learn to regulate breathing to smooth the Qi flow in the large intestine and the lungs.', 'hypothesis': 'Smooth muscle regulates air flow in lungs.', 'label': 'neutral', 'hypothesis_structure': 'Smooth muscle<>regulates<>air flow in lungs'}
+
+base: 
+{'premise': 'When you practice Qigong you must learn how to regulate your breathing to smooth the Qi flow in the large intestine and the lungs.', 'hypothesis': 'Smooth muscle regulates air flow in lungs.', 'label': 'neutral', 'hypothesis_structure': 'Smooth muscle<>regulates<>air flow in lungs'}
+======================================
+premise similarity: 0.7741935483870968
+hypothesis similarity: 1.0
+{'premise': 'This cycle is repeated until the end of the third year.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+
+base: 
+{'premise': 'The cycle is repeated until the end of the growing season is reached.', 'hypothesis': 'The water cycle ends with it repeats itself.', 'label': 'neutral', 'hypothesis_structure': 'The water cycle<>ends<>with it'}
+======================================
+premise similarity: 0.7557603686635944
+hypothesis similarity: 1.0
+{'premise': 'If a child inherits brown-eye genes from both parents, the child will have brown eyes.', 'hypothesis': 'Children can inherit brown eyes from their parents.', 'label': 'entails', 'hypothesis_structure': 'Children<>can inherit<>brown eyes<>from their parents'}
+
+base: 
+{'premise': 'If a child inherits brown-eye genes from one parent, and blue-eye genes from the other parent, then the child will have brown eyes.', 'hypothesis': 'Children can inherit brown eyes from their parents.', 'label': 'entails', 'hypothesis_structure': 'Children<>can inherit<>brown eyes<>from their parents'}
+======================================
+premise similarity: 0.9866666666666667
+hypothesis similarity: 1.0
+{'premise': 'Describe how simple machines operates.', 'hypothesis': 'A complex machine is described by: it is made of more than one simple machine.', 'label': 'neutral', 'hypothesis_structure': 'A complex machine<>is described<>by: it is made of more than one simple machine$$$it<>is made<>of more than one simple machine'}
+
+base: 
+{'premise': 'Describe how simple machines operate.', 'hypothesis': 'A complex machine is described by: it is made of more than one simple machine.', 'label': 'neutral', 'hypothesis_structure': 'A complex machine<>is described<>by: it is made of more than one simple machine$$$it<>is made<>of more than one simple machine'}
+======================================
+premise similarity: 0.7058823529411765
+hypothesis similarity: 1.0
+{'premise': 'The year is the time it takes the earth to orbit the sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'entails', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+base: 
+{'premise': 'It is the time it takes the Earth to go completely around (orbit) the sun once.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+======================================
+premise similarity: 0.9305555555555556
+hypothesis similarity: 1.0
+{'premise': 'A solid is in a state of matter that maintains a fixed volume and shape.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+base: 
+{'premise': 'Solids are in a state of matter that maintains a fixed volume and shape.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+======================================
+premise similarity: 0.7050359712230215
+hypothesis similarity: 1.0
+{'premise': 'Mars takes 1.86 Earth years to complete its orbit around the Sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+premise similarity: 0.7022900763358778
+hypothesis similarity: 1.0
+{'premise': 'It takes 12 Earth years for this planet to orbit the Sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+base: 
+{'premise': 'But it takes 165 Earth years for Neptune to make one orbit around the sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+======================================
+premise similarity: 0.704
+hypothesis similarity: 1.0
+{'premise': 'Water in the morning  to minimize evaporation.', 'hypothesis': 'Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.', 'label': 'entails', 'hypothesis_structure': 'Watering plants and grass in the early morning<>is<>a way to conserve water$$$smaller amounts of water<>evaporate<>in the cool morning'}
+
+premise similarity: 0.7215189873417721
+hypothesis similarity: 1.0
+{'premise': 'Start the watering cycle in the early morning in order to minimize evaporation.', 'hypothesis': 'Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.', 'label': 'entails', 'hypothesis_structure': 'Watering plants and grass in the early morning<>is<>a way to conserve water$$$smaller amounts of water<>evaporate<>in the cool morning'}
+
+base: 
+{'premise': 'Try to water only in the evening or very early morning to minimize evaporation.', 'hypothesis': 'Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.', 'label': 'entails', 'hypothesis_structure': 'Watering plants and grass in the early morning<>is<>a way to conserve water$$$smaller amounts of water<>evaporate<>in the cool morning'}
+======================================
+premise similarity: 0.9142857142857143
+hypothesis similarity: 1.0
+{'premise': 'Take a loose magnet and place it on the Magnet-on-a-post so the two magnets attract.', 'hypothesis': 'Increasing the distance between the two magnets will cause a decrease in the force of attraction between two magnets.', 'label': 'neutral', 'hypothesis_structure': 'Increasing the distance between the two magnets<>will cause<>a decrease in the force of attraction between two magnets'}
+
+base: 
+{'premise': 'Take a loose magnet and place it on the magnet on a post so the two magnets are attracting.', 'hypothesis': 'Increasing the distance between the two magnets will cause a decrease in the force of attraction between two magnets.', 'label': 'neutral', 'hypothesis_structure': 'Increasing the distance between the two magnets<>will cause<>a decrease in the force of attraction between two magnets'}
+======================================
+premise similarity: 0.7816091954022989
+hypothesis similarity: 1.0
+{'premise': 'Solids have definite shapes and volumes.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+premise similarity: 0.7358490566037735
+hypothesis similarity: 1.0
+{'premise': 'Solid A solid has a definite shape and volume, it is rigid.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+premise similarity: 0.8941176470588236
+hypothesis similarity: 1.0
+{'premise': 'A solid has definite shape and volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+premise similarity: 0.8735632183908046
+hypothesis similarity: 1.0
+{'premise': 'A solid has a definite shape and volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+base: 
+{'premise': 'I 4.3.1f A solid has definite shape and volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+======================================
+premise similarity: 0.7580645161290323
+hypothesis similarity: 1.0
+{'premise': 'A solid is a phase of matter that has a definite shape and volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+premise similarity: 0.7804878048780488
+hypothesis similarity: 1.0
+{'premise': 'Solids are a form of matter that has a definite shape and volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+base: 
+{'premise': 'Solid States of matter that have fixed shapes and volumes.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+======================================
+premise similarity: 0.95
+hypothesis similarity: 1.0
+{'premise': 'Gravity is the force that keeps planets in orbit around the sun and governs the rest of the motion in the solar system.', 'hypothesis': 'Gravity is responsible for the orbits of the planets around the sun.', 'label': 'entails', 'hypothesis_structure': 'Gravity<>is<>responsible for the orbits of the planets around the sun'}
+
+base: 
+{'premise': 'Gravity is the force that keeps planets in orbit around the sun and maintains the rest of the motion in the solar system.', 'hypothesis': 'Gravity is responsible for the orbits of the planets around the sun.', 'label': 'entails', 'hypothesis_structure': 'Gravity<>is<>responsible for the orbits of the planets around the sun'}
+======================================
+premise similarity: 0.9824561403508771
+hypothesis similarity: 1.0
+{'premise': 'As it grows, the mycelium uses up all of the nutrients in the soil, starving the grass.', 'hypothesis': 'Using nutrients and growing are common to all living things.', 'label': 'neutral', 'hypothesis_structure': 'Using nutrients and growing<>are<>common to all living things'}
+
+base: 
+{'premise': 'As it grows, the mycelium uses up all the nutrients in the soil, starving the grass.', 'hypothesis': 'Using nutrients and growing are common to all living things.', 'label': 'neutral', 'hypothesis_structure': 'Using nutrients and growing<>are<>common to all living things'}
+======================================
+premise similarity: 0.8292682926829268
+hypothesis similarity: 1.0
+{'premise': 'The sun is a star.', 'hypothesis': 'The sun is classified as a star.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is classified<>as a star'}
+
+base: 
+{'premise': 'The sun is a star star,', 'hypothesis': 'The sun is classified as a star.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is classified<>as a star'}
+======================================
+premise similarity: 0.84
+hypothesis similarity: 1.0
+{'premise': 'They have a medium-long, non-matting coat with a soft texture like rabbit fur.', 'hypothesis': 'Soft describes the texture of a kitten’s fur.', 'label': 'neutral', 'hypothesis_structure': "Soft<>describes<>the texture of a kitten's fur"}
+
+base: 
+{'premise': 'The medium-long coat is non matting with a soft texture like rabbit fur.', 'hypothesis': 'Soft describes the texture of a kitten’s fur.', 'label': 'neutral', 'hypothesis_structure': "Soft<>describes<>the texture of a kitten's fur"}
+======================================
+premise similarity: 0.7096774193548387
+hypothesis similarity: 1.0
+{'premise': 'This allows more flexibility to reclassify objects after the fact.', 'hypothesis': 'The flexibility of an object allows it to bend.', 'label': 'neutral', 'hypothesis_structure': 'The flexibility of an object<>allows<>it to bend$$$it<>to bend<>'}
+
+base: 
+{'premise': 'This allows more flexibility when making objects in games.', 'hypothesis': 'The flexibility of an object allows it to bend.', 'label': 'neutral', 'hypothesis_structure': 'The flexibility of an object<>allows<>it to bend$$$it<>to bend<>'}
+======================================
+premise similarity: 0.8641975308641975
+hypothesis similarity: 1.0
+{'premise': 'It takes 248 Earth years to orbit the Sun;', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+premise similarity: 0.8333333333333334
+hypothesis similarity: 1.0
+{'premise': 'Pluto takes 248 Earth years to orbit the Sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+premise similarity: 0.8222222222222222
+hypothesis similarity: 1.0
+{'premise': 'Remember, it takes Earth one year to orbit the sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'entails', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+base: 
+{'premise': 'It takes Earth a year to orbit the sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'entails', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+======================================
+premise similarity: 0.9152542372881356
+hypothesis similarity: 1.0
+{'premise': 'The mosses, liverworts, and hornworts; a group of nonvascular plants that inhabit the land but lack many of the terrestrial adaptations of vascular plants.', 'hypothesis': 'Moss is best classified as a nonvascular plant.', 'label': 'entails', 'hypothesis_structure': 'Moss<>is best classified<>as a nonvascular plant'}
+
+base: 
+{'premise': 'A moss, liverwort, or hornwort; a nonvascular plant that inhabits the land but lacks many of the terrestrial adaptations of vascular plants.', 'hypothesis': 'Moss is best classified as a nonvascular plant.', 'label': 'entails', 'hypothesis_structure': 'Moss<>is best classified<>as a nonvascular plant'}
+======================================
+premise similarity: 0.7032967032967034
+hypothesis similarity: 1.0
+{'premise': 'Solids have a definite volume and shape.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+premise similarity: 0.8376068376068376
+hypothesis similarity: 1.0
+{'premise': 'Solids are objects that have a definite shape and definite volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+base: 
+{'premise': 'Solids have a definite shape and a definite volume.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+======================================
+premise similarity: 0.8188976377952756
+hypothesis similarity: 1.0
+{'premise': 'The digestive tract includes the mouth, esophagus,      stomach, small intestine, large intestine, rectum, and anus.', 'hypothesis': 'The correct order of food traveling through the digestive system after it is swallowed is: esophagus, stomach, small intestine, large intestine.', 'label': 'entails', 'hypothesis_structure': 'food<>traveling<>through the digestive system$$$it<>is swallowed<>$$$The correct order of food<>is<>esophagus, stomach, small intestine, large intestine'}
+
+base: 
+{'premise': 'The digestive or gastrointestinal (GI) tract includes the esophagus, stomach, small intestine, large intestine or colon, rectum, and anus.', 'hypothesis': 'The correct order of food traveling through the digestive system after it is swallowed is: esophagus, stomach, small intestine, large intestine.', 'label': 'entails', 'hypothesis_structure': 'food<>traveling<>through the digestive system$$$it<>is swallowed<>$$$The correct order of food<>is<>esophagus, stomach, small intestine, large intestine'}
+======================================
+premise similarity: 0.7317073170731707
+hypothesis similarity: 1.0
+{'premise': 'Plants that lack vascular tissue (nonvascular plants) include algae, mosses, liverworts, and hornworts.', 'hypothesis': 'Moss is best classified as a nonvascular plant.', 'label': 'entails', 'hypothesis_structure': 'Moss<>is best classified<>as a nonvascular plant'}
+
+premise similarity: 0.8849557522123894
+hypothesis similarity: 1.0
+{'premise': 'nonvascular plant; mosses, liverworts, and hornworts', 'hypothesis': 'Moss is best classified as a nonvascular plant.', 'label': 'entails', 'hypothesis_structure': 'Moss<>is best classified<>as a nonvascular plant'}
+
+base: 
+{'premise': 'Nonvascular plants include mosses, liverworts, and hornworts.', 'hypothesis': 'Moss is best classified as a nonvascular plant.', 'label': 'entails', 'hypothesis_structure': 'Moss<>is best classified<>as a nonvascular plant'}
+======================================
+premise similarity: 0.7422680412371134
+hypothesis similarity: 1.0
+{'premise': 'These weeds have a characteristic strong odor .', 'hypothesis': 'Strong odor helps some animals defend themselves against predators.', 'label': 'neutral', 'hypothesis_structure': 'Strong odor<>helps<>some animals defend themselves against predators$$$some animals<>defend<>themselves'}
+
+base: 
+{'premise': 'they have a characteristic, strong, aromatic odor;', 'hypothesis': 'Strong odor helps some animals defend themselves against predators.', 'label': 'neutral', 'hypothesis_structure': 'Strong odor<>helps<>some animals defend themselves against predators$$$some animals<>defend<>themselves'}
+======================================
+premise similarity: 0.7248322147651006
+hypothesis similarity: 1.0
+{'premise': 'environmental changes can lead to increased access to certain foods;', 'hypothesis': 'A change of season and less food usually cause certain animals to migrate.', 'label': 'neutral', 'hypothesis_structure': 'certain animals<>to migrate<>'}
+
+base: 
+{'premise': 'New production systems or environmental changes increase access to certain foods.', 'hypothesis': 'A change of season and less food usually cause certain animals to migrate.', 'label': 'neutral', 'hypothesis_structure': 'certain animals<>to migrate<>'}
+======================================
+premise similarity: 0.8253968253968254
+hypothesis similarity: 1.0
+{'premise': 'Complex machines combine two or more simple machines.)', 'hypothesis': 'A complex machine is described by: it is made of more than one simple machine.', 'label': 'entails', 'hypothesis_structure': 'A complex machine<>is described<>by: it is made of more than one simple machine$$$it<>is made<>of more than one simple machine'}
+
+base: 
+{'premise': 'Complex machines are merely combinations of two or more simple machines.', 'hypothesis': 'A complex machine is described by: it is made of more than one simple machine.', 'label': 'entails', 'hypothesis_structure': 'A complex machine<>is described<>by: it is made of more than one simple machine$$$it<>is made<>of more than one simple machine'}
+======================================
+premise similarity: 0.890625
+hypothesis similarity: 1.0
+{'premise': 'Digestion of food begins in the mouth and moves through the esophagus, stomach, and the small and large intestine.', 'hypothesis': 'The correct order of food traveling through the digestive system after it is swallowed is: esophagus, stomach, small intestine, large intestine.', 'label': 'entails', 'hypothesis_structure': 'food<>traveling<>through the digestive system$$$it<>is swallowed<>$$$The correct order of food<>is<>esophagus, stomach, small intestine, large intestine'}
+
+base: 
+{'premise': 'Glossary Additional Reading Digestion of food begins in the mouth and moves through the esophagus, stomach, and the small and large intestine.', 'hypothesis': 'The correct order of food traveling through the digestive system after it is swallowed is: esophagus, stomach, small intestine, large intestine.', 'label': 'entails', 'hypothesis_structure': 'food<>traveling<>through the digestive system$$$it<>is swallowed<>$$$The correct order of food<>is<>esophagus, stomach, small intestine, large intestine'}
+======================================
+premise similarity: 0.7448275862068966
+hypothesis similarity: 1.0
+{'premise': 'Solid is a phase of matter characterized by a definite volume and definite shape.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+premise similarity: 0.7457627118644068
+hypothesis similarity: 1.0
+{'premise': 'Solids are materials with a definite volume and shape.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+
+base: 
+{'premise': 'SOLID State of matter with a definite volume and definite shape.', 'hypothesis': 'A definite shape and a definite volume are properties of the solid, only state(s) of matter.', 'label': 'entails', 'hypothesis_structure': 'A definite shape and a definite volume<>are<>properties of the solid, only state(s) of matter'}
+======================================
+premise similarity: 0.7213114754098361
+hypothesis similarity: 1.0
+{'premise': 'Copernicus placed the Sun at the center of the solar system.', 'hypothesis': 'The sun is the center of our solar system.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is<>the center of our solar system$$$The sun<>is the center of<>our solar system'}
+
+premise similarity: 0.7289719626168224
+hypothesis similarity: 1.0
+{'premise': 'The sun is at the center of the solar system.', 'hypothesis': 'The sun is the center of our solar system.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is<>the center of our solar system$$$The sun<>is the center of<>our solar system'}
+
+premise similarity: 0.7850467289719626
+hypothesis similarity: 1.0
+{'premise': 'The Sun is at the center of our solar system.', 'hypothesis': 'The sun is the center of our solar system.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is<>the center of our solar system$$$The sun<>is the center of<>our solar system'}
+
+premise similarity: 0.703125
+hypothesis similarity: 1.0
+{'premise': 'Today we think of the sun as being the center of the solar system.', 'hypothesis': 'The sun is the center of our solar system.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is<>the center of our solar system$$$The sun<>is the center of<>our solar system'}
+
+base: 
+{'premise': 'The Earth moves and the Sun is the center of our solar system.', 'hypothesis': 'The sun is the center of our solar system.', 'label': 'entails', 'hypothesis_structure': 'The sun<>is<>the center of our solar system$$$The sun<>is the center of<>our solar system'}
+======================================
+premise similarity: 0.7123287671232876
+hypothesis similarity: 1.0
+{'premise': 'Electrical Wiring Insulation .', 'hypothesis': 'Electrical wires are usually covered with plastic or rubber to insulate the electrical wire.', 'label': 'neutral', 'hypothesis_structure': 'Electrical wires<>are covered<>with plastic or rubber<>to insulate the electrical wire<>usually'}
+
+base: 
+{'premise': 'Cracked, worn electrical wiring insulation.', 'hypothesis': 'Electrical wires are usually covered with plastic or rubber to insulate the electrical wire.', 'label': 'neutral', 'hypothesis_structure': 'Electrical wires<>are covered<>with plastic or rubber<>to insulate the electrical wire<>usually'}
+======================================
+premise similarity: 0.738255033557047
+hypothesis similarity: 1.0
+{'premise': 'Water your lawn in the early morning to reduce water loss by evaporation.', 'hypothesis': 'Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.', 'label': 'entails', 'hypothesis_structure': 'Watering plants and grass in the early morning<>is<>a way to conserve water$$$smaller amounts of water<>evaporate<>in the cool morning'}
+
+base: 
+{'premise': 'Water your lawn in the early morning or late afternoon to avoid evaporation.', 'hypothesis': 'Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.', 'label': 'entails', 'hypothesis_structure': 'Watering plants and grass in the early morning<>is<>a way to conserve water$$$smaller amounts of water<>evaporate<>in the cool morning'}
+======================================
+premise similarity: 0.9076305220883534
+hypothesis similarity: 1.0
+{'premise': 'Adult iguanas are not at risk from many predators, as they can defend themselves with sharp teeth and strong tails.', 'hypothesis': 'Strong odor helps some animals defend themselves against predators.', 'label': 'neutral', 'hypothesis_structure': 'Strong odor<>helps<>some animals defend themselves against predators$$$some animals<>defend<>themselves'}
+
+base: 
+{'premise': 'The adult iguanas are not at risk from very many predators because they can defend themselves with their sharp teeth and strong tails.', 'hypothesis': 'Strong odor helps some animals defend themselves against predators.', 'label': 'neutral', 'hypothesis_structure': 'Strong odor<>helps<>some animals defend themselves against predators$$$some animals<>defend<>themselves'}
+======================================
+premise similarity: 0.8387096774193549
+hypothesis similarity: 1.0
+{'premise': 'Ice is the solid form of water.', 'hypothesis': 'Ice cubes are an example of the solid form of water.', 'label': 'entails', 'hypothesis_structure': 'Ice cubes<>are<>an example of the solid form of water'}
+
+base: 
+{'premise': 'I ICE The solid form of water .', 'hypothesis': 'Ice cubes are an example of the solid form of water.', 'label': 'entails', 'hypothesis_structure': 'Ice cubes<>are<>an example of the solid form of water'}
+======================================
+premise similarity: 0.7107438016528925
+hypothesis similarity: 1.0
+{'premise': 'During the summer, daylight is 24 hours a day.', 'hypothesis': 'The number of daylight hours each day would be greatest during the summer near the north pole.', 'label': 'neutral', 'hypothesis_structure': 'The number of daylight hours each day<>would be<>greatest<>during the summer near the north pole'}
+
+base: 
+{'premise': "During this, the south of the equator summer, it's daylight 24 hours a day.", 'hypothesis': 'The number of daylight hours each day would be greatest during the summer near the north pole.', 'label': 'neutral', 'hypothesis_structure': 'The number of daylight hours each day<>would be<>greatest<>during the summer near the north pole'}
+======================================
+premise similarity: 0.7412587412587412
+hypothesis similarity: 1.0
+{'premise': 'It takes only 88 earth days to complete an orbit around the Sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'neutral', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+
+base: 
+{'premise': 'It actually takes the Earth 365.2422 days to complete its orbit around the sun.', 'hypothesis': 'It takes about one year for earth to orbit the sun.', 'label': 'entails', 'hypothesis_structure': 'It<>takes<>about one year$$$It<>takes about one year for<>earth$$$It<>takes about one year for earth to orbit<>the sun$$$about one year<>for<>earth$$$about one year<>for earth to orbit<>the sun$$$earth<>to orbit<>the sun'}
+======================================
+premise similarity: 0.8484848484848485
+hypothesis similarity: 1.0
+{'premise': 'A fuel cell will produce energy in the form of electricity and heat as long as fuel is supplied.', 'hypothesis': 'Heat is produced when paper is burned.', 'label': 'neutral', 'hypothesis_structure': 'Heat<>is produced<>when paper is burned$$$paper<>is burned<>'}
+
+base: 
+{'premise': 'It will produce energy in the form of electricity and heat as long as its fuel--hydrogen--is supplied.', 'hypothesis': 'Heat is produced when paper is burned.', 'label': 'neutral', 'hypothesis_structure': 'Heat<>is produced<>when paper is burned$$$paper<>is burned<>'}
+======================================
+premise similarity: 0.7008547008547008
+hypothesis similarity: 1.0
+{'premise': "Earth's atmosphere is mainly nitrogen and oxygen.", 'hypothesis': "Oxygen and nitrogen make up most of the earth's atmosphere.", 'label': 'entails', 'hypothesis_structure': "Oxygen and nitrogen<>make up<>most of the earth's atmosphere"}
+
+premise similarity: 0.7769784172661871
+hypothesis similarity: 1.0
+{'premise': "The chief components of the Earth's atmosphere are nitrogen and oxygen.", 'hypothesis': "Oxygen and nitrogen make up most of the earth's atmosphere.", 'label': 'entails', 'hypothesis_structure': "Oxygen and nitrogen<>make up<>most of the earth's atmosphere"}
+
+base: 
+{'premise': "Nearly 99 percent of the  earth's atmosphere is nitrogen and oxygen.", 'hypothesis': "Oxygen and nitrogen make up most of the earth's atmosphere.", 'label': 'entails', 'hypothesis_structure': "Oxygen and nitrogen<>make up<>most of the earth's atmosphere"}
+======================================
+premise similarity: 0.7222222222222222
+hypothesis similarity: 1.0
+{'premise': 'It displays properties of both metals, and nonmetals.', 'hypothesis': 'In a comparison of metals to nonmetals, metals tend to have greater conductivity and higher melting points than nonmetals.', 'label': 'neutral', 'hypothesis_structure': 'metals<>tend<>to have greater conductivity and higher melting points than nonmetals<>In a comparison of metals to nonmetals$$$metals<>to have<>greater conductivity and higher melting points than nonmetals'}
+
+base: 
+{'premise': 'No, metalloids have properties of metals and nonmetals.', 'hypothesis': 'In a comparison of metals to nonmetals, metals tend to have greater conductivity and higher melting points than nonmetals.', 'label': 'neutral', 'hypothesis_structure': 'metals<>tend<>to have greater conductivity and higher melting points than nonmetals<>In a comparison of metals to nonmetals$$$metals<>to have<>greater conductivity and higher melting points than nonmetals'}
+======================================
+premise similarity: 0.7286821705426356
+hypothesis similarity: 1.0
+{'premise': 'Animal cells lack the cellulose cells walls of plant cells.', 'hypothesis': 'A cell wall is found in a plant cell but not in an animal cell.', 'label': 'entails', 'hypothesis_structure': 'A cell wall<>is found<>in a plant cell'}
+
+base: 
+{'premise': 'Animal cells lack the rigid cell walls that characterize plant  cells.', 'hypothesis': 'A cell wall is found in a plant cell but not in an animal cell.', 'label': 'entails', 'hypothesis_structure': 'A cell wall<>is found<>in a plant cell'}
+======================================
+premise similarity: 0.7642276422764228
+hypothesis similarity: 1.0
+{'premise': 'Chloroplast , found in plant cells , are responsible for photosynthesis.', 'hypothesis': 'Photosynthesis occurs in the chloroplast.', 'label': 'entails', 'hypothesis_structure': 'Photosynthesis<>occurs<>in the chloroplast'}
+
+base: 
+{'premise': 'Chloroplasts in plant cells perform photosynthesis;', 'hypothesis': 'Photosynthesis occurs in the chloroplast.', 'label': 'entails', 'hypothesis_structure': 'Photosynthesis<>occurs<>in the chloroplast'}
+======================================
+premise similarity: 0.7843137254901961
+hypothesis similarity: 1.0
+{'premise': 'An oxygen atom and two hydrogen atoms combine to form a water molecule (H 2 O).', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+
+base: 
+{'premise': 'One oxygen atom combines with two hydrogen atoms to form a water molecule.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+======================================
+premise similarity: 0.784688995215311
+hypothesis similarity: 1.0
+{'premise': 'Classify an element as a metal, nonmetal, or metalloid based on its location on the periodic table.', 'hypothesis': 'Elements on the periodic table of the elements are classified into categories such as metals and nonmetals.', 'label': 'neutral', 'hypothesis_structure': 'Elements on the periodic table of the elements<>are classified<>into categories such as metals and nonmetals'}
+
+base: 
+{'premise': 'Classify an element as either a metal or a nonmetal (or an inert gas) from its position on the periodic table.', 'hypothesis': 'Elements on the periodic table of the elements are classified into categories such as metals and nonmetals.', 'label': 'entails', 'hypothesis_structure': 'Elements on the periodic table of the elements<>are classified<>into categories such as metals and nonmetals'}
+======================================
+premise similarity: 0.7209302325581395
+hypothesis similarity: 1.0
+{'premise': 'One example is the use of water changes.', 'hypothesis': 'One example of matter is water.', 'label': 'neutral', 'hypothesis_structure': 'One example of matter<>is<>water'}
+
+base: 
+{'premise': 'One example is when a boil water alert occurs.', 'hypothesis': 'One example of matter is water.', 'label': 'neutral', 'hypothesis_structure': 'One example of matter<>is<>water'}
+======================================
+premise similarity: 0.7777777777777778
+hypothesis similarity: 1.0
+{'premise': 'Metabolism is the sum total of all chemical reactions performed by an organism.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+
+base: 
+{'premise': 'Metabolism is the sum total of all the chemical reactions occurring in an organism at any given time.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+======================================
+premise similarity: 0.7628865979381443
+hypothesis similarity: 1.0
+{'premise': 'Plant cells have a cell wall, animal cells do not.', 'hypothesis': 'A cell wall is found in a plant cell but not in an animal cell.', 'label': 'entails', 'hypothesis_structure': 'A cell wall<>is found<>in a plant cell'}
+
+base: 
+{'premise': 'Plant cells possess a cell wall, animals never.', 'hypothesis': 'A cell wall is found in a plant cell but not in an animal cell.', 'label': 'entails', 'hypothesis_structure': 'A cell wall<>is found<>in a plant cell'}
+======================================
+premise similarity: 0.703030303030303
+hypothesis similarity: 1.0
+{'premise': 'Metabolism- all the chemical reactions that take place in a cell or organism;', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+
+base: 
+{'premise': 'Metabolism Sum of the physical and chemical changes that take place in living organisms.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+======================================
+premise similarity: 0.8429752066115702
+hypothesis similarity: 1.0
+{'premise': 'The Sun transfers heat to the Earth through radiation.', 'hypothesis': 'Heat energy from the sun is transferred to earth primarily by radiation.', 'label': 'entails', 'hypothesis_structure': 'Heat energy from the sun<>is transferred<>to earth'}
+
+base: 
+{'premise': 'For example, the sun transfers heat to the earth through radiation.', 'hypothesis': 'Heat energy from the sun is transferred to earth primarily by radiation.', 'label': 'entails', 'hypothesis_structure': 'Heat energy from the sun<>is transferred<>to earth'}
+======================================
+premise similarity: 0.726027397260274
+hypothesis similarity: 1.0
+{'premise': 'The Law of Superposition states that for a set of undisturbed rock layers, the oldest layers are on the bottom and the youngest are on the top.', 'hypothesis': 'The law of superposition is best described by: in undisturbed layers of sedimentary rock, the lowest layers contain the older rocks.', 'label': 'entails', 'hypothesis_structure': 'The law of superposition<>is best described<>by: in undisturbed layers of sedimentary rock, the lowest layers contain the older rocks$$$the lowest layers<>contain<>the older rocks<>in undisturbed layers of sedimentary rock'}
+
+base: 
+{'premise': 'The principle of superposition states that in an undisturbed stack of sedimentary strata the oldest layer is at the base and the youngest at the top.', 'hypothesis': 'The law of superposition is best described by: in undisturbed layers of sedimentary rock, the lowest layers contain the older rocks.', 'label': 'entails', 'hypothesis_structure': 'The law of superposition<>is best described<>by: in undisturbed layers of sedimentary rock, the lowest layers contain the older rocks$$$the lowest layers<>contain<>the older rocks<>in undisturbed layers of sedimentary rock'}
+======================================
+premise similarity: 0.75
+hypothesis similarity: 1.0
+{'premise': 'Calories are the measurement used to express the energy delivered by food.', 'hypothesis': 'A calorie is used to express the amount of energy in food.', 'label': 'entails', 'hypothesis_structure': 'A calorie<>is used<>to express the amount of energy in food$$$A calorie<>to express<>the amount of energy'}
+
+base: 
+{'premise': 'Counting calories A calorie is a unit of measurement used to express the energy value of food.', 'hypothesis': 'A calorie is used to express the amount of energy in food.', 'label': 'entails', 'hypothesis_structure': 'A calorie<>is used<>to express the amount of energy in food$$$A calorie<>to express<>the amount of energy'}
+======================================
+premise similarity: 0.7150259067357513
+hypothesis similarity: 1.0
+{'premise': 'That metabolism is the combination of all of the chemical reactions that take place in an organism.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+
+premise similarity: 0.7027027027027027
+hypothesis similarity: 1.0
+{'premise': 'Metabolism is simply the sum of all the chemical reactions taking place in a living system.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+
+base: 
+{'premise': 'Metabolism The sum of all the chemical and energy reactions that take place in the human body.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+======================================
+premise similarity: 0.8713450292397661
+hypothesis similarity: 1.0
+{'premise': 'The endocrine system consists of a set of glands and the hormones they produce that help guide the development, growth, reproduction, and behavior of animals including human beings.', 'hypothesis': 'The endocrine system produces hormones to regulate growth, development, and reproduction.', 'label': 'entails', 'hypothesis_structure': 'The endocrine system<>produces<>hormones$$$The endocrine system<>produces hormones to regulate<>growth, development, and reproduction'}
+
+premise similarity: 0.8809523809523809
+hypothesis similarity: 1.0
+{'premise': 'The endocrine system consists of the glands and the hormones they produce that help guide the development, growth, reproduction and behavior of animals including human beings.', 'hypothesis': 'The endocrine system produces hormones to regulate growth, development, and reproduction.', 'label': 'entails', 'hypothesis_structure': 'The endocrine system<>produces<>hormones$$$The endocrine system<>produces hormones to regulate<>growth, development, and reproduction'}
+
+premise similarity: 0.8579881656804734
+hypothesis similarity: 1.0
+{'premise': 'The endocrine system consists of a set of glands and the hormones they produce, which help guide the development, growth, reproduction and behaviour of animals and human beings.', 'hypothesis': 'The endocrine system produces hormones to regulate growth, development, and reproduction.', 'label': 'entails', 'hypothesis_structure': 'The endocrine system<>produces<>hormones$$$The endocrine system<>produces hormones to regulate<>growth, development, and reproduction'}
+
+premise similarity: 0.72
+hypothesis similarity: 1.0
+{'premise': 'The endocrine system consists of glands which produce hormones that work together to guide development, growth, reproduction and behavior, and to maintain normal function of various organs.', 'hypothesis': 'The endocrine system produces hormones to regulate growth, development, and reproduction.', 'label': 'entails', 'hypothesis_structure': 'The endocrine system<>produces<>hormones$$$The endocrine system<>produces hormones to regulate<>growth, development, and reproduction'}
+
+base: 
+{'premise': 'The endocrine system consists of glands and the hormones they produce that guide the development, growth, reproduction, and behavior of human beings and animals.', 'hypothesis': 'The endocrine system produces hormones to regulate growth, development, and reproduction.', 'label': 'entails', 'hypothesis_structure': 'The endocrine system<>produces<>hormones$$$The endocrine system<>produces hormones to regulate<>growth, development, and reproduction'}
+======================================
+premise similarity: 0.72
+hypothesis similarity: 1.0
+{'premise': 'Water molecules each contain two hydrogen atoms and one oxygen atom.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+
+premise similarity: 0.7361111111111112
+hypothesis similarity: 1.0
+{'premise': 'A molecule of water is two hydrogen atoms and one oxygen atom.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+
+base: 
+{'premise': 'A water molecules (H 2 O) is made of 2 hydrogen atoms (H) and one oxygen atom (O).', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+======================================
+premise similarity: 0.9885057471264368
+hypothesis similarity: 1.0
+{'premise': '4 Hereditary information is contained in genes, located in the chromosomes of each cell.', 'hypothesis': 'A cell’s chromosomes contain genes.', 'label': 'entails', 'hypothesis_structure': "A cell's chromosomes<>contain<>genes"}
+
+base: 
+{'premise': 'Hereditary information is contained in genes, located in the chromosomes of each cell.', 'hypothesis': 'A cell’s chromosomes contain genes.', 'label': 'entails', 'hypothesis_structure': "A cell's chromosomes<>contain<>genes"}
+======================================
+premise similarity: 0.8258064516129032
+hypothesis similarity: 1.0
+{'premise': 'Each water molecule contains one atom of oxygen and two atoms of hydrogen.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+
+base: 
+{'premise': 'A molecule of water always contains one atom of oxygen and two atoms of hydrogen.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+======================================
+premise similarity: 0.8031496062992126
+hypothesis similarity: 1.0
+{'premise': 'Calories measure the amount of energy stored in a food.', 'hypothesis': 'A calorie is used to express the amount of energy in food.', 'label': 'entails', 'hypothesis_structure': 'A calorie<>is used<>to express the amount of energy in food$$$A calorie<>to express<>the amount of energy'}
+
+base: 
+{'premise': 'A Calorie is a measure of the amount of energy found in a specific food.', 'hypothesis': 'A calorie is used to express the amount of energy in food.', 'label': 'entails', 'hypothesis_structure': 'A calorie<>is used<>to express the amount of energy in food$$$A calorie<>to express<>the amount of energy'}
+======================================
+premise similarity: 0.725
+hypothesis similarity: 1.0
+{'premise': 'Mercury Mercury is the 1st planet to the sun.', 'hypothesis': 'Mercury is always closer to the sun than it is to earth.', 'label': 'entails', 'hypothesis_structure': 'Mercury<>is<>always<>closer to the sun than it is to earth$$$it<>is<>to earth'}
+
+base: 
+{'premise': 'Mercury is a planet within the sun.', 'hypothesis': 'Mercury is always closer to the sun than it is to earth.', 'label': 'neutral', 'hypothesis_structure': 'Mercury<>is<>always<>closer to the sun than it is to earth$$$it<>is<>to earth'}
+======================================
+premise similarity: 0.8082191780821918
+hypothesis similarity: 1.0
+{'premise': 'Water is a molecule that consists of one oxygen atom and two hydrogen atoms.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+
+base: 
+{'premise': 'A water molecule is made up of one oxygen atom and two hydrogen atoms.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+======================================
+premise similarity: 0.7333333333333333
+hypothesis similarity: 1.0
+{'premise': '1.5 Plant cells contain chloroplasts, the site of photosynthesis.', 'hypothesis': 'Photosynthesis occurs in the chloroplast.', 'label': 'entails', 'hypothesis_structure': 'Photosynthesis<>occurs<>in the chloroplast'}
+
+base: 
+{'premise': 'Plant cells also have chloroplasts for photosynthesis .', 'hypothesis': 'Photosynthesis occurs in the chloroplast.', 'label': 'entails', 'hypothesis_structure': 'Photosynthesis<>occurs<>in the chloroplast'}
+======================================
+premise similarity: 0.7297297297297297
+hypothesis similarity: 1.0
+{'premise': 'This is a type of relationships that is very beneficial for the environment.', 'hypothesis': 'A(n) beneficial relationship exists when a certain type of tree’s roots need a fungus present in order to grow normally.', 'label': 'neutral', 'hypothesis_structure': "A(n) beneficial relationship<>exists<>when a certain type of tree's roots need a fungus present in order$$$a certain type of tree's roots<>need<>a fungus present in order"}
+
+base: 
+{'premise': 'This type of relationship is not beneficial for the buyer or the seller.', 'hypothesis': 'A(n) beneficial relationship exists when a certain type of tree’s roots need a fungus present in order to grow normally.', 'label': 'neutral', 'hypothesis_structure': "A(n) beneficial relationship<>exists<>when a certain type of tree's roots need a fungus present in order$$$a certain type of tree's roots<>need<>a fungus present in order"}
+======================================
+premise similarity: 0.8271604938271605
+hypothesis similarity: 1.0
+{'premise': 'metabolism refers to all of the chemical reaction that occur within an organism.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+
+base: 
+{'premise': 'Definitions Metabolism is all of the chemical reactions that occur in an organism.', 'hypothesis': 'The sum of all chemical reactions that take place within an organism is known as metabolism.', 'label': 'entails', 'hypothesis_structure': 'all chemical reactions<>take<>place<>within an organism$$$The sum of all chemical reactions<>is known<>as metabolism'}
+======================================
+premise similarity: 0.7321428571428571
+hypothesis similarity: 1.0
+{'premise': 'Genes are located on chromosomes in the cell.', 'hypothesis': 'A cell’s chromosomes contain genes.', 'label': 'entails', 'hypothesis_structure': "A cell's chromosomes<>contain<>genes"}
+
+base: 
+{'premise': 'Genes are contained in the chromosomes in the nucleus of each cell.', 'hypothesis': 'A cell’s chromosomes contain genes.', 'label': 'entails', 'hypothesis_structure': "A cell's chromosomes<>contain<>genes"}
+======================================
+premise similarity: 0.8043478260869565
+hypothesis similarity: 1.0
+{'premise': '243 underground metal and nonmetal mines;', 'hypothesis': 'In a comparison of metals to nonmetals, metals tend to have greater conductivity and higher melting points than nonmetals.', 'label': 'neutral', 'hypothesis_structure': 'metals<>tend<>to have greater conductivity and higher melting points than nonmetals<>In a comparison of metals to nonmetals$$$metals<>to have<>greater conductivity and higher melting points than nonmetals'}
+
+base: 
+{'premise': 'Exposures of underground metal and nonmetal miners.', 'hypothesis': 'In a comparison of metals to nonmetals, metals tend to have greater conductivity and higher melting points than nonmetals.', 'label': 'neutral', 'hypothesis_structure': 'metals<>tend<>to have greater conductivity and higher melting points than nonmetals<>In a comparison of metals to nonmetals$$$metals<>to have<>greater conductivity and higher melting points than nonmetals'}
+======================================
+premise similarity: 0.8321167883211679
+hypothesis similarity: 1.0
+{'premise': 'Each water molecule has two atoms of hydrogen and one atom of oxygen.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+
+base: 
+{'premise': 'Each water molecule contains 3 atoms, 2 of hydrogen and 1 of oxygen.', 'hypothesis': '2 hydrogen, 1 oxygen atoms combine to make up a molecule of water.', 'label': 'entails', 'hypothesis_structure': '1 oxygen atoms<>to make up<>a molecule of water'}
+======================================
+premise similarity: 0.7967479674796748
+hypothesis similarity: 1.0
+{'premise': "The earth's atmosphere consists primarily of oxygen and nitrogen;", 'hypothesis': "Oxygen and nitrogen make up most of the earth's atmosphere.", 'label': 'entails', 'hypothesis_structure': "Oxygen and nitrogen<>make up<>most of the earth's atmosphere"}
+
+base: 
+{'premise': "Earth's atmosphere consists of mainly oxygen and nitrogen.", 'hypothesis': "Oxygen and nitrogen make up most of the earth's atmosphere.", 'label': 'entails', 'hypothesis_structure': "Oxygen and nitrogen<>make up<>most of the earth's atmosphere"}
+======================================
+premise similarity: 0.8579881656804734
+hypothesis similarity: 1.0
+{'premise': 'The endocrine system consists of glands and the hormones they produce that guide the development, growth, reproduction, and behavior of human beings and animals.', 'hypothesis': 'Most hormones are produced by the endocrine system.', 'label': 'entails', 'hypothesis_structure': 'Most hormones<>are produced<>by the endocrine system'}
+
+base: 
+{'premise': 'The endocrine system consists of a set of glands and the hormones they produce, which help guide the development, growth, reproduction and behaviour of animals and human beings.', 'hypothesis': 'Most hormones are produced by the endocrine system.', 'label': 'entails', 'hypothesis_structure': 'Most hormones<>are produced<>by the endocrine system'}
+======================================
+premise similarity: 0.8852459016393442
+hypothesis similarity: 1.0
+{'premise': 'List structures found in animal cells and not in plant cells.', 'hypothesis': 'A cell wall is found in a plant cell but not in an animal cell.', 'label': 'neutral', 'hypothesis_structure': 'A cell wall<>is found<>in a plant cell'}
+
+base: 
+{'premise': 'List structures found in plant cells and not in animal cells.', 'hypothesis': 'A cell wall is found in a plant cell but not in an animal cell.', 'label': 'neutral', 'hypothesis_structure': 'A cell wall<>is found<>in a plant cell'}
+======================================

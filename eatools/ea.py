@@ -21,20 +21,47 @@ def prompt(js):
     global pre_cmd
     global count
     global jump
+
+    edit = False
+
     r = input("?> ").strip()
     while True:
         if r == 'n':
+            if edit:
+                a = input("edited: keep without save?[y/N]:").strip()
+                if a != 'y':
+                    r = input("?> ").strip()
+                    continue
+
             pre_cmd = r
             flag = False
             return True
         elif r == 'q':
+            if edit:
+                a = input("edited: keep without save?:[y/N]").strip()
+                if a != 'y':
+                    r = input("?> ").strip()
+                    continue
+
             count = 0
             return False
         elif r == 'nw':
+            if edit:
+                a = input("edited: keep without save?:[y/N]").strip()
+                if a != 'y':
+                    r = input("?> ").strip()
+                    continue
+
             pre_cmd = r
             flag = True
             return True
         elif len(r) > 2 and r[0] =='j':
+            if edit:
+                a = input("edited: keep without save?:[y/N]").strip()
+                if a != 'y':
+                    r = input("?> ").strip()
+                    continue
+
             _, num = r.split()
             jump = int(num)
             flag = False
@@ -42,6 +69,11 @@ def prompt(js):
         elif r == 'w':
             ff.write(jn.dumps(js))
             ff.write("\n")
+            edit = False
+        elif r == 'e':
+            description = input("description: ")
+            js['description'] = description
+            edit = True
         elif r == '' and (pre_cmd == 'n' or pre_cmd == 'nw'):
             r = pre_cmd
             continue
@@ -55,16 +87,17 @@ def prompt(js):
             if v:
                 print(key,": ", v)
         else:
-            print("try again",
+            print("\ntry again",
                   "h: help",
                   "n: next",
                   "q: quit",
-                  "j + #: jump to number",
                   "nw: next wrong",
+                  "j + #: jump to number",
+                  "e: add error description",
                   "w: write sample",
                   "hps: print hypothesis_structure",
                   "d: dump json",
-                  "s + key: print value (opt: ['premise', 'hypothesis', 'label', 'hypothesis_structure', 'label_logits', 'label_probs', 'loss', 'predict'])", sep="\n")
+                  "s + key: print value (opt: ['premise', 'hypothesis', 'label', 'hypothesis_structure', 'label_logits', 'label_probs', 'loss', 'predict'])\n", sep="\n")
         pre_cmd = r
         r = input("?> ").strip()
 
@@ -102,5 +135,5 @@ with open(ifile, "r") as fi, open(ofile, "r") as fo, open(eafile, "w+") as ff:
             keep = prompt(ji)
             if not keep:
                 exit("[Exist]")
-
+        
 
