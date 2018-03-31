@@ -1,0 +1,128 @@
+* same word
+  same word appear in both premise & hypothesis too many times, mostly predict neutral as entails
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: The liver is divided into the right lobe and left lobes.
+        ⋆hypothesis: The gallbladder is near the right lobe of the liver.
+        ⋆label: neutral
+        ⋆predict: entails
+#+END_EXAMPLE
+2)
+#+BEGIN_EXAMPLE
+        ⋆premise: Neptune will be the farthest planet from the Sun until 1999.
+        ⋆hypothesis: The eighth planet from our sun is neptune.
+        ⋆label: neutral
+        ⋆predict: entails
+#+END_EXAMPLE
+
+* lack logic
+  need basic knowledge or logic to find small clue inside sentence and do inference, mostly predict entails as neutral
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: In the fish and all subsequent vertebrates, the notochord forms the backbone (or vertebral column).
+        ⋆hypothesis: Backbone is another name for the vertebral column.
+        ⋆label: entails
+        ⋆predict: neutral
+#+END_EXAMPLE
+2)
+#+BEGIN_EXAMPLE
+        ⋆premise: In thermodynamics, a closed system can exchange energy (as heat or work) but not matter,
+           with its surroundings.
+        ⋆hypothesis: A sealed, vacuum-insulated reaction flask approximates the condition of a isolated system, 
+           in which neither matter nor heat can be exchanged between system and surroundings.
+        ⋆label: neutral
+        ⋆predict: entails
+#+END_EXAMPLE
+* distraction
+  noisy structure 
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: A community consists of all the various populations of organisms living in a given area.
+        ⋆hypothesis: All of the populations that live in the same area make up a(n) community, 
+           which includes populations of different organisms.
+        ⋆label: entails
+        ⋆predict: neutral
+        ⋆hypothesis_structure: the populations<>live<>in the same area$$$All of the populations<>make up<>a(n) community, 
+           which includes populations of different organisms$$$a(n) community<>includes<>populations of different organisms
+#+END_EXAMPLE
+2)
+#+BEGIN_EXAMPLE
+        ⋆premise: Ocean acidification is a lowered pH of ocean waters caused by increased carbon dioxide emissions 
+           into the atmosphere, which results in more CO2 dissolving into the ocean.
+        ⋆hypothesis: Ocean acidification occurs when excess carbon dioxide in the atmosphere causes the oceans to
+           become acidic.
+        ⋆label: entails
+        ⋆predict: neutral
+        ⋆hypothesis_structure: Ocean acidification<>occurs<>when excess carbon dioxide in the atmosphere causes 
+           the oceans to become acidic$$$excess carbon dioxide in the atmosphere<>causes<>the oceans to become acidic$$$the oceans<>to become<>acidic
+#+END_EXAMPLE
+* nonsense
+  I don't know why
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: pH indicators are substances obtained from plant material that change color depending on the
+           degree of acid or base of the substance it is mixed with.
+        ⋆hypothesis: If a substance has a ph value greater than 7,that indicates that it is base.
+        ⋆label: neutral
+        ⋆predict: entails
+        ⋆hypothesis_structure: a substance<>has<>a ph value greater than 7
+#+END_EXAMPLE
+2)
+#+BEGIN_EXAMPLE
+        ⋆premise: Front- The boundary between two different air masses.
+        ⋆hypothesis: In weather terms, the boundary between two air masses is called front.
+        ⋆label: entails
+        ⋆predict: neutral
+        ⋆hypothesis_structure: the boundary between two air masses<>is called<>front<>In weather terms
+#+END_EXAMPLE
+* parse error
+  hypothesis structure miss important part of the sentence
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: Hemodialysis involves the use of a dialysis machine and an artificial kidney to remove waste 
+           products and excess fluids from the blood.
+        ⋆hypothesis: Hemodialysis has a patient’s blood pass through a length of tubing that travels through an 
+           artificial kidney machine.
+        ⋆label: entails
+        ⋆predict: neutral
+        ⋆hypothesis_structure: a length of tubing<>travels<>$$$Hemodialysis<>has<>a patient's blood pass through a length 
+           of tubing$$$a patient's blood<>pass<>through a length of tubing
+
+#+END_EXAMPLE
+2)
+#+BEGIN_EXAMPLE
+        ⋆premise: At pH values below 7 we have excess acid, and at pH levels above 7 we have excess base in the water.
+        ⋆hypothesis: If a substance has a ph value greater than 7,that indicates that it is base.
+        ⋆label: entails
+        ⋆predict: neutral
+        ⋆hypothesis_structure: a substance<>has<>a ph value greater than 7
+#+END_EXAMPLE
+* wrong label
+  wrong label
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: Jet stream (atmosphere) Jet stream is a band of fast-moving air currents that occur at high altitudes.
+        ⋆hypothesis: Jet streams are fast moving rivers of air that are going in opposite directions called.
+        ⋆label: entails
+        ⋆predict: neutral
+#+END_EXAMPLE
+2)
+#+BEGIN_EXAMPLE
+        ⋆premise: From Newton's first law of motion, force equals mass, ' m ' (in kg) multiplied by acceleration, 
+           'a' (in metres per second 2 ).
+        ⋆hypothesis: Newton’s second law of motion is more than a definition; it is a relationship among acceleration,
+           force, and mass.
+        ⋆label: entails
+        ⋆predict: neutral
+#+END_EXAMPLE
+* hard to entail
+  need lots of knowledge and common sense to entail 
+1)
+#+BEGIN_EXAMPLE
+        ⋆premise: Along the length of a muscle cell, parallel actin microfilaments are interdigitated with thicker 
+           filaments made of the protein myosin ,  a motor
+        ⋆hypothesis: Muscle type of cell function relies on microfilaments, which are the actin components of 
+           the cytoskeleton.
+        ⋆label: entails
+        ⋆predict: neutral
+#+END_EXAMPLE
