@@ -1,0 +1,9 @@
+* STEP
+** 1. training & prediction
+   follow the instruction on readme at scitail root.
+
+** 2. run ea.py
+   check examples and write to the analysis file.
+
+** 3. run an.py
+   do simple analysis to analysis file
