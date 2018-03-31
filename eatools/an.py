@@ -30,7 +30,7 @@ def pp(r):
             print("n: next\nq: quit")
 
 def print_sample(js):
-    for key in ("premise", "hypothesis", "label", "predict" ):
+    for key in ("premise", "hypothesis", "label", "predict" ,"hypothesis_structure"):
         print("\t⋆{}: {}".format(key, js[key]))
 
 while True:
@@ -48,4 +48,5 @@ while True:
                     print_sample(i)
                 else:
                     break
-            print("That's all")
+            else:
+                print("That's all")
