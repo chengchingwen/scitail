@@ -15,4 +15,4 @@ import scitail.data.dataset_readers
 import scitail.service.predictors
 
 if __name__ == "__main__":
-    main(prog="python -m scitail.run", predictor_overrides={"tree_attention": "tree_attention"})
+    main(prog="python -m scitail.run")

@@ -1,1 +1,0 @@
-from scitail.predictor.tree_attention_predictor import TreeAttentionPredictor
